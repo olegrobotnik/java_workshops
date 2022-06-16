@@ -1,3 +1,5 @@
+//+Написать программу вычисления n-ого треугольного числа. url
+
 import java.util.Scanner;
 
 public class homework_01_task_01_triangular_number {
