@@ -14,9 +14,12 @@ public class homework_01_task_03_commands_and_paths {
     }
 
     public static void generate(int source, int target, int c, int d, String path) {
-        if (source > target) return;
+        if (source > target) {
+            System.out.println("False path: " + path);
+            return;
+        }
         if (source == target) {
-            System.out.println(path);
+            System.out.println("Right path: " + path);
             return;
         }
         generate(source + c, target, c, d, path + " k1");
