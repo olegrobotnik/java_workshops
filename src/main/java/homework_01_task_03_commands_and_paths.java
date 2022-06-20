@@ -23,4 +23,3 @@ public class homework_01_task_03_commands_and_paths {
         generate(source * d, target, c, d, path + " k2");
     }
 }
-
