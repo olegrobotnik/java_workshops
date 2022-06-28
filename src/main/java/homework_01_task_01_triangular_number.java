@@ -6,8 +6,6 @@ public class homework_01_task_01_triangular_number {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number: ");
-//        String stringNumber = input.nextLine();
-//        int number = Integer.parseInt(stringNumber);
         int number = input.nextInt();
         System.out.println(number + "th triangular number = " + triangularNumberRecursion(number));
     }

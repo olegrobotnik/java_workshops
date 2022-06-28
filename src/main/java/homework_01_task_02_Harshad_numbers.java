@@ -8,14 +8,6 @@ public class homework_01_task_02_Harshad_numbers {
 
 
     public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);   //Console input
-//        System.out.println("Enter the Harshad number: ");
-//        int inputNumber = input.nextInt();
-//        System.out.println(inputNumber);
-
-//        while (!HarshadNumber()) {
-//            continue;
-//        }
         while (!HarshadNumber()) {   //Equals the previous loop
         }
     }
